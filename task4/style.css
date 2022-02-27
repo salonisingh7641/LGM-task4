@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(rgb(150, 184, 214),rgb(19, 182, 168));
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: rgb(66, 59, 136);
+}
+
+.calculator
+{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(140, 184, 223);
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    border-radius: 18px;
+    box-shadow:  5px 5px 12px rgb(51, 49, 49) ;
+    width: 500px;
+    margin: 200px auto;
+    margin-top: 50px;
+}
+
+input[type="text"]{
+    grid-column: span 4;
+    text-align: end;
+    font-size: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 5px 5px 12px rgba(121, 119, 119,0.8);
+    margin-bottom: 20px;
+}
+
+button{
+    font-size: 35px;
+    margin: 10px 5px;
+    border-radius: 50px;
+    border:none;
+    box-shadow:  5px 10px 12px rgba(124, 123, 123,0.8);
+    color:rgb(216, 198, 198);
+    background-color: rgba(138, 102, 236, 0.7);
+}
+
+button:hover{
+    background-color: rgb(212, 182, 238);
+    color: black;
+}
+
+#cl:hover{
+    background-color: rgb(218, 99, 99);
+    color: white;
+}
+.result{
+    width: 190px;
+    background-color: orange;
+}
+
+.result:hover{
+    background-color: rgb(212, 119, 32);
+    color: white ;
+}
+
+.op:hover{
+    background-color: rgba(138, 102, 236, 0.2);
+}
